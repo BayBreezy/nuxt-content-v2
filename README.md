@@ -1,6 +1,10 @@
-# Nuxt 3 Minimal Starter
+# Bloggy
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Blog created with Nuxt 3, TailwindCSS & Content v2
+
+## Demo
+
+Can be found here: https://content2-nuxt3.behonbaker.com/
 
 ## Setup
 
