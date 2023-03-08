@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition-colors active:scale-95;
+  }
+
+  .btn-primary {
+    @apply bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-primary-600 dark:hover:bg-primary;
+  }
+
+  .btn-ghost {
+    @apply text-zinc-500 duration-200 hover:bg-primary-100 hover:text-primary  dark:text-zinc-300 dark:hover:bg-zinc-600/40 dark:hover:text-primary;
+  }
+
+  .btn-icon {
+    @apply inline-flex items-center justify-center rounded-lg p-2 text-zinc-500 transition-colors hover:bg-primary-100 hover:text-primary active:scale-95 dark:text-zinc-300 dark:hover:bg-zinc-600/40 dark:hover:text-primary;
+  }
+}
